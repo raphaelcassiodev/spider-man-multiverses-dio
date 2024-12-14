@@ -1,24 +1,24 @@
-@import url('reset.css');
-@import url('global.css');
-@import url('components/_navigator.css');
-@import url('components/_pills.css');
-@import url('components/_link-button.css');
-@import url('components/_gallery.css');
+@import url('/assets/css/reset.css');
+@import url('/assets/css/global.css');
+@import url('/assets/css/components/navigator.css');
+@import url('/assets/css/components/pills.css');
+@import url('/assets/css/components/link-button.css');
+@import url('/assets/css/components/galerry.css');
 
-.s-wrapper {
+
+
+.s-wrapper{
   display: flex;
   height: 100vh;
-  flex-flow: row nowrap; 
-  background-color: aqua; 
+  flex-flow: row nowrap;
 }
 
 .s-wrapper video{
   position: fixed;
   width: 100%;
-
 }
 
-.s-wrapper .s-left-column {
+.s-wrapper .s-left-column{
   width: 100px;
   height: 100%;
   display: flex;
@@ -29,6 +29,7 @@
   left: 0;
   top: 0;
   z-index: 1;
+  padding: 10px;
 }
 
 .s-wrapper .s-main-content{
@@ -38,12 +39,13 @@
   position: relative;
 }
 
-.s-wrapper .s-main-content__top {
+.s-wrapper .s-main-content__top{
   height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 
 .s-wrapper .s-main-content__bottom{
   height: 20vh;
@@ -54,7 +56,7 @@
 
 .s-wrapper .s-main-content .s-logo img{
   margin-top: 50px;
-  margin-left: 0;
+  margin-left: 0px;
   margin-bottom: 30px;
 }
 
@@ -66,35 +68,29 @@
 }
 
 .s-wrapper .s-main-content__top .s-description .s-description__text p{
-  color: white;
+  color: #fff;
   line-height: 170%;
 }
 
 .s-wrapper .s-main-content__top .s-description .pills{
-  margin-bottom: 20px;
-}
-
-.s-wrapper .s-main-content .s-links{
-  padding: 20px;
-  padding-left: 0;
+ margin-bottom: 20px;
 }
 
 .s-wrapper .s-main-content .s-links ul{
   display: flex;
-  flex-direction: row;
 }
 
-.s-spiderman-01-01 {
+.s-spiderman-01-01{
   background-image: url('../images/spiderman-tobey/movie-01/background.png');
-  background-size:cover;
+  background-size: cover;
 }
 
-.s-spiderman-01-02 {
+.s-spiderman-01-02{
   background-image: url('../images/spiderman-tobey/movie-02/background.png');
   background-size: cover;
 }
 
-.s-spiderman-01-03 {
+.s-spiderman-01-03{
   background-image: url('../images/spiderman-tobey/movie-03/background.png');
   background-size: cover;
 }
